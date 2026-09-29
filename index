@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Man Behind the Mask</title>
+
+    <meta name="description" content="The Man Behind the Mask — a story about love, loss, truth, acceptance and starting again.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            background: #f7f5f1;
+            color: #252525;
+            line-height: 1.7;
+        }
+
+        /* HERO */
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background:
+                linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.45)),
+                url("message.png") center center / cover no-repeat;
+        }
+
+        .hero-content {
+            max-width: 850px;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 8vw, 6.5rem);
+            font-weight: normal;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            text-shadow: 0 3px 15px rgba(0,0,0,0.5);
+        }
+
+        .hero p {
+            font-size: clamp(1.1rem, 2vw, 1.5rem);
+            letter-spacing: 1px;
+        }
+
+        .scroll {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        /* CONTENT */
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 90px 25px;
+        }
+
+        .intro {
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 2.5rem;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+
+        .intro p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .divider {
+            width: 60px;
+            height: 1px;
+            background: #555;
+            margin: 45px auto;
+        }
+
+        /* BOOK */
+
+        .book {
+            background: white;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .book h2 {
+            font-size: 2.5rem;
+            font-weight: normal;
+            margin-bottom: 25px;
+        }
+
+        .book p {
+            max-width: 700px;
+            margin: 0 auto 25px;
+            font-size: 1.1rem;
+        }
+
+        .book-title {
+            font-style: italic;
+            font-size: 1.4rem;
+            margin: 30px 0;
+        }
+
+        /* QUOTE */
+
+        .quote {
+            text-align: center;
+        }
+
+        blockquote {
+            font-size: clamp(1.7rem, 4vw, 3rem);
+            font-style: italic;
+            font-weight: normal;
+            line-height: 1.4;
+            max-width: 750px;
+            margin: auto;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #222;
+            color: #ddd;
+            text-align: center;
+            padding: 45px 20px;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 600px) {
+
+            .hero {
+                min-height: 90vh;
+            }
+
+            section {
+                padding: 65px 20px;
+            }
+
+            .intro h2,
+            .book h2 {
+                font-size: 2rem;
+            }
+
+            .intro p,
+            .book p {
+                font-size: 1.05rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO -->
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <h1>The Man Behind the Mask</h1>
+
+            <p>
+                Love. Loss. Truth. Acceptance. Starting again.
+            </p>
+
+            <div class="scroll">
+                ↓
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- INTRODUCTION -->
+
+    <section class="intro">
+
+        <h2>Taking off the mask.</h2>
+
+        <div class="divider"></div>
+
+        <p>
+            For years, I thought I had to be someone else to be loved.
+            I hid behind the version of myself that I thought people wanted to see.
+        </p>
+
+        <br>
+
+        <p>
+            This is a story about what happened when the mask finally came off.
+        </p>
+
+    </section>
+
+
+    <!-- BOOK -->
+
+    <section class="book">
+
+        <h2>The Book</h2>
+
+        <div class="divider"></div>
+
+        <div class="book-title">
+            The Man Behind the Mask
+        </div>
+
+        <p>
+            A deeply personal story about love, heartbreak, loss,
+            mistakes, truth, acceptance and learning to choose yourself.
+        </p>
+
+        <p>
+            Sometimes healing doesn't mean forgetting someone.
+            Sometimes it means finally seeing yourself clearly.
+        </p>
+
+    </section>
+
+
+    <!-- QUOTE -->
+
+    <section class="quote">
+
+        <blockquote>
+            “I can love somebody and still let them go.”
+        </blockquote>
+
+        <div class="divider"></div>
+
+        <blockquote>
+            “I deserve to be a choice. Not an option.”
+        </blockquote>
+
+    </section>
+
+
+    <!-- FINAL MESSAGE -->
+
+    <section class="intro">
+
+        <h2>Remember this.</h2>
+
+        <div class="divider"></div>
+
+        <p>
+            Support those who support you.<br>
+            Love those who love you.<br>
+            Ignore those who ignore you.
+        </p>
+
+        <br>
+
+        <p>
+            And never chase people who are comfortable losing you.
+        </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>The Man Behind the Mask</p>
+
+        <p>© 2026</p>
+
+    </footer>
+
+</body>
+</html>
